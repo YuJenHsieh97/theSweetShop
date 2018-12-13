@@ -1,0 +1,12 @@
+<div id='cookies'>
+<% @cookies.each do |i| %>
+    <img src="<%=i.image%>">
+    <br>
+    <%= i.name %>
+    <br>
+    <%= i.description %>
+    <br>
+    <%= i.price %>
+    <br>
+<% end %>
+</div>
